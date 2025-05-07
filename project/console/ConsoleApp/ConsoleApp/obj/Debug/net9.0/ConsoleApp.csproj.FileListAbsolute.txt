@@ -1,0 +1,14 @@
+D:\project\console\ConsoleApp\ConsoleApp\bin\Debug\net9.0\ConsoleApp.exe
+D:\project\console\ConsoleApp\ConsoleApp\bin\Debug\net9.0\ConsoleApp.deps.json
+D:\project\console\ConsoleApp\ConsoleApp\bin\Debug\net9.0\ConsoleApp.runtimeconfig.json
+D:\project\console\ConsoleApp\ConsoleApp\bin\Debug\net9.0\ConsoleApp.dll
+D:\project\console\ConsoleApp\ConsoleApp\bin\Debug\net9.0\ConsoleApp.pdb
+D:\project\console\ConsoleApp\ConsoleApp\obj\Debug\net9.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\console\ConsoleApp\ConsoleApp\obj\Debug\net9.0\ConsoleApp.AssemblyInfoInputs.cache
+D:\project\console\ConsoleApp\ConsoleApp\obj\Debug\net9.0\ConsoleApp.AssemblyInfo.cs
+D:\project\console\ConsoleApp\ConsoleApp\obj\Debug\net9.0\ConsoleApp.csproj.CoreCompileInputs.cache
+D:\project\console\ConsoleApp\ConsoleApp\obj\Debug\net9.0\ConsoleApp.dll
+D:\project\console\ConsoleApp\ConsoleApp\obj\Debug\net9.0\refint\ConsoleApp.dll
+D:\project\console\ConsoleApp\ConsoleApp\obj\Debug\net9.0\ConsoleApp.pdb
+D:\project\console\ConsoleApp\ConsoleApp\obj\Debug\net9.0\ConsoleApp.genruntimeconfig.cache
+D:\project\console\ConsoleApp\ConsoleApp\obj\Debug\net9.0\ref\ConsoleApp.dll
