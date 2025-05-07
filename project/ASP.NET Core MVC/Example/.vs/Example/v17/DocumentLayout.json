@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\project\\ASP.NET Core MVC\\Example\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|d:\\project\\asp.net core mvc\\example\\example\\migrations\\20250507082319_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|solutionrelative:example\\migrations\\20250507082319_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|d:\\project\\asp.net core mvc\\example\\example\\models\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|solutionrelative:example\\models\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|d:\\project\\asp.net core mvc\\example\\example\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|solutionrelative:example\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|d:\\project\\asp.net core mvc\\example\\example\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|solutionrelative:example\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|d:\\project\\asp.net core mvc\\example\\example\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|solutionrelative:example\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250507082319_InitialCreate.cs",
+              "DocumentMoniker": "D:\\project\\ASP.NET Core MVC\\Example\\Example\\Migrations\\20250507082319_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Example\\Migrations\\20250507082319_InitialCreate.cs",
+              "ToolTip": "D:\\project\\ASP.NET Core MVC\\Example\\Example\\Migrations\\20250507082319_InitialCreate.cs",
+              "RelativeToolTip": "Example\\Migrations\\20250507082319_InitialCreate.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T08:23:19.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "D:\\project\\ASP.NET Core MVC\\Example\\Example\\Models\\MoviesController.cs",
+              "RelativeDocumentMoniker": "Example\\Models\\MoviesController.cs",
+              "ToolTip": "D:\\project\\ASP.NET Core MVC\\Example\\Example\\Models\\MoviesController.cs",
+              "RelativeToolTip": "Example\\Models\\MoviesController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T08:18:54.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "D:\\project\\ASP.NET Core MVC\\Example\\Example\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "Example\\Models\\Movie.cs",
+              "ToolTip": "D:\\project\\ASP.NET Core MVC\\Example\\Example\\Models\\Movie.cs",
+              "RelativeToolTip": "Example\\Models\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T08:13:56.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\project\\ASP.NET Core MVC\\Example\\Example\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Example\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\project\\ASP.NET Core MVC\\Example\\Example\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Example\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T07:57:24.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\project\\ASP.NET Core MVC\\Example\\Example\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Example\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\project\\ASP.NET Core MVC\\Example\\Example\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Example\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T07:43:17.966Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
