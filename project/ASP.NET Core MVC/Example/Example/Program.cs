@@ -1,15 +1,21 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 using Example.Data;
+using Example.BUS;
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<MovieContext>(options =>
+builder.Services.AddDbContextPool<MovieContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("MovieContext") ?? throw new InvalidOperationException("Connection string 'MovieContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+// Add transient, scoped, singletone
+builder.Services.AddScoped<IMovieService, MovieService>();
 var app = builder.Build();
 
+using var scope = app.Services.CreateScope();
+{
+    var service = scope.ServiceProvider;
+    SeedData.Intialize(service);
+}
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -27,7 +33,7 @@ app.MapStaticAssets();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
+    pattern: "{controller=Movies}/{action=Index}/{id?}")
     .WithStaticAssets();
 
 

@@ -1,27 +1,32 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Example.Data;
+using Example.Models;
+using Example.BUS;
 
-namespace Example.Models
+namespace Example.Controllers
 {
     public class MoviesController : Controller
     {
-        private readonly MovieContext _context;
+        
 
-        public MoviesController(MovieContext context)
+        private readonly IMovieService _movieService;
+        private readonly ILogger<HomeController> _logger;
+        //Constructor Injection
+        public MoviesController(IMovieService movieService, ILogger<HomeController> logger)
         {
-            _context = context;
+            _movieService = movieService;
+            _logger = logger;
         }
+
+        // Setter Injection
+        //public readonly MovieContext _context;
+        //public MovieContext Context { set { _context = value; } }
 
         // GET: Movies
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Movie.ToListAsync());
+            _logger.LogInformation("Trang chủ được truy cập.");
+            return View(await _movieService.GetAll());
         }
 
         // GET: Movies/Details/5
@@ -31,9 +36,7 @@ namespace Example.Models
             {
                 return NotFound();
             }
-
-            var movie = await _context.Movie
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var movie = await _movieService.GetById((int)id);
             if (movie == null)
             {
                 return NotFound();
@@ -57,8 +60,7 @@ namespace Example.Models
         {
             if (ModelState.IsValid)
             {
-                _context.Add(movie);
-                await _context.SaveChangesAsync();
+                await _movieService.Create(movie);
                 return RedirectToAction(nameof(Index));
             }
             return View(movie);
@@ -69,10 +71,11 @@ namespace Example.Models
         {
             if (id == null)
             {
+                _logger.LogCritical("Request {traceId} started at: {time}", HttpContext.TraceIdentifier, DateTimeOffset.Now);
                 return NotFound();
             }
 
-            var movie = await _context.Movie.FindAsync(id);
+            var movie = await _movieService.GetById((int)id);
             if (movie == null)
             {
                 return NotFound();
@@ -96,17 +99,18 @@ namespace Example.Models
             {
                 try
                 {
-                    _context.Update(movie);
-                    await _context.SaveChangesAsync();
+                    _logger.LogInformation("Entering into database, update movie");
+                    await _movieService.Update(movie);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!MovieExists(movie.Id))
+                    if (!await _movieService.IsExsist(id))
                     {
                         return NotFound();
                     }
                     else
                     {
+                        _logger.LogDebug("Request {traceId} started at: {time}", HttpContext.TraceIdentifier, DateTimeOffset.Now);
                         throw;
                     }
                 }
@@ -123,8 +127,7 @@ namespace Example.Models
                 return NotFound();
             }
 
-            var movie = await _context.Movie
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var movie = await _movieService.GetById((int)id);
             if (movie == null)
             {
                 return NotFound();
@@ -138,19 +141,13 @@ namespace Example.Models
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var movie = await _context.Movie.FindAsync(id);
+            var movie = await _movieService.GetById((int)id);
             if (movie != null)
             {
-                _context.Movie.Remove(movie);
+                await _movieService.Delete(movie);
             }
 
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
-        }
-
-        private bool MovieExists(int id)
-        {
-            return _context.Movie.Any(e => e.Id == id);
         }
     }
 }
