@@ -1,0 +1,4 @@
+12-05-25 6PM
+- Xây dựng project MVC2 cho việc Database first và Code first viết thủ công Migration
+- Tiếp xúc với UnitOfWork
+- Sử dụng IInstaller, giản lược độ phức tạp cho Program.cs

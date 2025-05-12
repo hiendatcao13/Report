@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\project\\ASP.NET Core MVC\\Example\\",
+  "WorkspaceRootPath": "D:\\git\\Report\\project\\ASP.NET Core MVC\\Example\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|d:\\project\\asp.net core mvc\\example\\example\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|d:\\git\\report\\project\\asp.net core mvc\\example\\example\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|solutionrelative:example\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|d:\\project\\asp.net core mvc\\example\\example\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|d:\\git\\report\\project\\asp.net core mvc\\example\\example\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|solutionrelative:example\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|d:\\project\\asp.net core mvc\\example\\example\\views\\shared\\dummy.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|d:\\git\\report\\project\\asp.net core mvc\\example\\example\\views\\shared\\dummy.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|solutionrelative:example\\views\\shared\\dummy.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|d:\\project\\asp.net core mvc\\example\\example\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|d:\\git\\report\\project\\asp.net core mvc\\example\\example\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|solutionrelative:example\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|d:\\project\\asp.net core mvc\\example\\example\\bus\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|d:\\git\\report\\project\\asp.net core mvc\\example\\example\\bus\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|solutionrelative:example\\bus\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|d:\\project\\asp.net core mvc\\example\\example\\bus\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|d:\\git\\report\\project\\asp.net core mvc\\example\\example\\bus\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|solutionrelative:example\\bus\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|d:\\project\\asp.net core mvc\\example\\example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|d:\\git\\report\\project\\asp.net core mvc\\example\\example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0043480-C7F5-4125-B042-B9BA5F7ADA3C}|Example\\Example.csproj|solutionrelative:example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -44,9 +44,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\project\\ASP.NET Core MVC\\Example\\Example\\Views\\Movies\\Index.cshtml",
+              "DocumentMoniker": "D:\\git\\Report\\project\\ASP.NET Core MVC\\Example\\Example\\Views\\Movies\\Index.cshtml",
               "RelativeDocumentMoniker": "Example\\Views\\Movies\\Index.cshtml",
-              "ToolTip": "D:\\project\\ASP.NET Core MVC\\Example\\Example\\Views\\Movies\\Index.cshtml",
+              "ToolTip": "D:\\git\\Report\\project\\ASP.NET Core MVC\\Example\\Example\\Views\\Movies\\Index.cshtml",
               "RelativeToolTip": "Example\\Views\\Movies\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -56,9 +56,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Dummy.razor",
-              "DocumentMoniker": "D:\\project\\ASP.NET Core MVC\\Example\\Example\\Views\\Shared\\Dummy.razor",
+              "DocumentMoniker": "D:\\git\\Report\\project\\ASP.NET Core MVC\\Example\\Example\\Views\\Shared\\Dummy.razor",
               "RelativeDocumentMoniker": "Example\\Views\\Shared\\Dummy.razor",
-              "ToolTip": "D:\\project\\ASP.NET Core MVC\\Example\\Example\\Views\\Shared\\Dummy.razor",
+              "ToolTip": "D:\\git\\Report\\project\\ASP.NET Core MVC\\Example\\Example\\Views\\Shared\\Dummy.razor",
               "RelativeToolTip": "Example\\Views\\Shared\\Dummy.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -68,9 +68,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "IMovieService.cs",
-              "DocumentMoniker": "D:\\project\\ASP.NET Core MVC\\Example\\Example\\BUS\\IMovieService.cs",
+              "DocumentMoniker": "D:\\git\\Report\\project\\ASP.NET Core MVC\\Example\\Example\\BUS\\IMovieService.cs",
               "RelativeDocumentMoniker": "Example\\BUS\\IMovieService.cs",
-              "ToolTip": "D:\\project\\ASP.NET Core MVC\\Example\\Example\\BUS\\IMovieService.cs",
+              "ToolTip": "D:\\git\\Report\\project\\ASP.NET Core MVC\\Example\\Example\\BUS\\IMovieService.cs",
               "RelativeToolTip": "Example\\BUS\\IMovieService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -80,9 +80,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "MovieService.cs",
-              "DocumentMoniker": "D:\\project\\ASP.NET Core MVC\\Example\\Example\\BUS\\MovieService.cs",
+              "DocumentMoniker": "D:\\git\\Report\\project\\ASP.NET Core MVC\\Example\\Example\\BUS\\MovieService.cs",
               "RelativeDocumentMoniker": "Example\\BUS\\MovieService.cs",
-              "ToolTip": "D:\\project\\ASP.NET Core MVC\\Example\\Example\\BUS\\MovieService.cs",
+              "ToolTip": "D:\\git\\Report\\project\\ASP.NET Core MVC\\Example\\Example\\BUS\\MovieService.cs",
               "RelativeToolTip": "Example\\BUS\\MovieService.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAwwCQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -92,9 +92,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "SeedData.cs",
-              "DocumentMoniker": "D:\\project\\ASP.NET Core MVC\\Example\\Example\\Data\\SeedData.cs",
+              "DocumentMoniker": "D:\\git\\Report\\project\\ASP.NET Core MVC\\Example\\Example\\Data\\SeedData.cs",
               "RelativeDocumentMoniker": "Example\\Data\\SeedData.cs",
-              "ToolTip": "D:\\project\\ASP.NET Core MVC\\Example\\Example\\Data\\SeedData.cs",
+              "ToolTip": "D:\\git\\Report\\project\\ASP.NET Core MVC\\Example\\Example\\Data\\SeedData.cs",
               "RelativeToolTip": "Example\\Data\\SeedData.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -104,11 +104,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MoviesController.cs",
-              "DocumentMoniker": "D:\\project\\ASP.NET Core MVC\\Example\\Example\\Controllers\\MoviesController.cs",
+              "DocumentMoniker": "D:\\git\\Report\\project\\ASP.NET Core MVC\\Example\\Example\\Controllers\\MoviesController.cs",
               "RelativeDocumentMoniker": "Example\\Controllers\\MoviesController.cs",
-              "ToolTip": "D:\\project\\ASP.NET Core MVC\\Example\\Example\\Controllers\\MoviesController.cs",
+              "ToolTip": "D:\\git\\Report\\project\\ASP.NET Core MVC\\Example\\Example\\Controllers\\MoviesController.cs",
               "RelativeToolTip": "Example\\Controllers\\MoviesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T01:58:18.352Z",
               "EditorCaption": ""
@@ -117,9 +117,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\project\\ASP.NET Core MVC\\Example\\Example\\Program.cs",
+              "DocumentMoniker": "D:\\git\\Report\\project\\ASP.NET Core MVC\\Example\\Example\\Program.cs",
               "RelativeDocumentMoniker": "Example\\Program.cs",
-              "ToolTip": "D:\\project\\ASP.NET Core MVC\\Example\\Example\\Program.cs",
+              "ToolTip": "D:\\git\\Report\\project\\ASP.NET Core MVC\\Example\\Example\\Program.cs",
               "RelativeToolTip": "Example\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

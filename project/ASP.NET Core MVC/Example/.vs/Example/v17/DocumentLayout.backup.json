@@ -50,8 +50,7 @@
               "RelativeToolTip": "Example\\Views\\Movies\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-08T08:47:06.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T08:47:06.019Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "Example\\Views\\Shared\\Dummy.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-08T08:46:04.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T08:46:04.887Z"
             },
             {
               "$type": "Document",
@@ -76,8 +74,7 @@
               "RelativeToolTip": "Example\\BUS\\IMovieService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T07:07:01.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T07:07:01.114Z"
             },
             {
               "$type": "Document",
@@ -89,8 +86,7 @@
               "RelativeToolTip": "Example\\BUS\\MovieService.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAwwCQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T07:06:44.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T07:06:44.067Z"
             },
             {
               "$type": "Document",
@@ -102,8 +98,7 @@
               "RelativeToolTip": "Example\\Data\\SeedData.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T02:56:43.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T02:56:43.688Z"
             },
             {
               "$type": "Document",
@@ -128,8 +123,7 @@
               "RelativeToolTip": "Example\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T01:56:21.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T01:56:21.69Z"
             }
           ]
         }
